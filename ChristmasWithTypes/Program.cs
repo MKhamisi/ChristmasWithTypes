@@ -11,7 +11,7 @@ namespace ChristmasWithTypes
             var xmasDay = Christmas.Day.Monday;
 
             //TODO set Santa's name to Kris Kringle
-            xmas.Santa = null;
+            xmas.Santa = "Kris Kringle";
  
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
@@ -29,7 +29,7 @@ namespace ChristmasWithTypes
                 Console.WriteLine($"    {present}");
             }
 
-            Console.WriteLine($"\n We like to call Santa, {"Kris Kringle"}");
+            Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
         }
     }
 }
